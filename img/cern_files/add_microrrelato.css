@@ -1,0 +1,35 @@
+.email_form{
+    display:none;
+}
+.microrrelatos_form .help-block ul{
+    padding-left:0;
+}
+.microrrelatos_form .help-block ul li{
+    padding:0;
+    margin:0;
+    position: static;
+}
+.microrrelatos_form .help-block ul li:before{
+    display: none !important;
+}
+
+.microrrelatos_form .checkbox input[type="checkbox"],
+.no-legacy-ie .microrrelatos_form .checkbox input[type="checkbox"]{
+    display: block;
+    position: absolute;
+    left: -99999px;
+}
+
+.microrrelatos_form .form-group.has-success .form-control{
+    color: #000;
+    background-color:#fff;
+    border-color: #66afe9;
+}
+.microrrelatos_form  .has-success .help-block, 
+.microrrelatos_form  .has-success .control-label, 
+.microrrelatos_form  .has-success .radio, 
+.microrrelatos_form  .has-success .checkbox, 
+.microrrelatos_form  .has-success .radio-inline, 
+.microrrelatos_form .has-success .checkbox-inline{
+   color: #055a77; 
+}
